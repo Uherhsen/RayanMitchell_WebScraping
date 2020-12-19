@@ -29,4 +29,4 @@ title = getTitle("https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%80%D0%B0%D0%B1%D
 if title == None:
     print("Title not be found")
 else:
-    print(title)
+    print(title.get_text())
