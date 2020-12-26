@@ -2,6 +2,8 @@
 """
 Created on Sat Dec 19 13:34:52 2020
 
+Учебник Райан Митчелл Скрапинг Веб-сайтов с помощью Python
+
 Навигация по древу синтаксического разбора с 37
 для обучения используется:
     http://bit.ly/1KGe2Qk оно же (http://www.pythonscraping.com/pages/page3.html)
