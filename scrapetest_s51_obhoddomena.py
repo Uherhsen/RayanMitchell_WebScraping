@@ -26,8 +26,10 @@ bsObj = BeautifulSoup(html)
 # URl-адреса не содержат точек с запятой
 # URl-адреса ачинаются с /wiki/
 
-# Используя эти правила полусим код:
+# Используя эти правила получим код:
 
 for link in bsObj.find("div",{"id":"bodyContent"}).findAll("a",href=re.compile("^(/wiki/)((?!:).)*$")):
     if 'href' in link.attrs:
         print(link.attrs['href'])
+        
+
